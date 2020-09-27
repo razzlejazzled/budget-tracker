@@ -12,5 +12,9 @@ The following files were provided as starter code:
 package.json
 server.js
 
+The following changes were made to the starter code
+/public/index.html
+    added a link to /public/manifest.webmanifest
+
 # dependencies
 This app is built with compression, express, lite-server, mongoose, and morgan.
