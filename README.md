@@ -15,6 +15,7 @@ The following files were provided as starter code:
 The following changes were made to the starter code
 * /public/index.html
    * added a link to /public/manifest.webmanifest
+   * added script tag and code for the service worker
 
 # dependencies
 This app is built with compression, express, lite-server, mongoose, and morgan.
