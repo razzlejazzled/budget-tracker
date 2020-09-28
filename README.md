@@ -16,6 +16,7 @@ The following changes were made to the starter code
 * /public/index.html
     * added a link to /public/manifest.webmanifest
     * added script tag and code for the service worker
+    * added a script tag for db.js
 * server.js
     * line 6 was changed to include process.env.PORT to allow for Heroku deployment
 
