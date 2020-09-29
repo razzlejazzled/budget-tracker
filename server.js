@@ -3,8 +3,15 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = process.env.PORT || 3030;
-
+mongoose.connect(
+   process.env.MONGODB_URI || 'mongodb://localhost/transaction',
+{
+  userNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false
+}
+);
 const app = express();
 
 app.use(logger("dev"));
