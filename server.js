@@ -3,6 +3,9 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
+const app = express();
+const PORT = process.env.PORT || 3030;
+
 mongoose.connect(
    process.env.MONGODB_URI || 'mongodb://localhost/transaction',
 {
